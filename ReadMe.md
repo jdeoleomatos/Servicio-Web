@@ -4,15 +4,6 @@ Este es un proyecto backend **sencillo** hecho con **Node.js** y **Express**, us
 
 ---
 
-## 🧠 ¿Qué hace este proyecto?
-
-- Levanta un servidor con Express.
-- Conecta con una base de datos PostgreSQL.
-- Expone rutas para acceder y modificar información.
-- Está pensado como base para proyectos más grandes o pruebas rápidas.
-
----
-
 ## 🧰 Tecnologías que estoy usando
 
 - Node.js
