@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/Styles.css">
+    <title>Agenda de Contactos</title>
+</head>
+<body onload="getContacts()">
+    <div id="AgendaContacto" class="AgendaContacto"> Agenda de Contactos </div>
+    
+    <div class="formulario">
+
+        <form id="contactForm" onsubmit="return addContact()">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="text" id="apellido" placeholder="Apellido" required>
+            <input type="text" id="numero" placeholder="Telefono" required>
+            <button id="agregarcontacto" type="submit">Añadir Contacto</button>
+        </form>
+
+    </div>
+    
+    <div id="Contactos" class="Contactos"></div>
+
+    <script src="./Js/script.js"></script>
+</body>
+</html>
